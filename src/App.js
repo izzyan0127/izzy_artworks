@@ -9,6 +9,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('home');
   const [isLoaded, setIsLoaded] = useState(false);
   const [currentPainting, setCurrentPainting] = useState(null);
+  const [galleryYearRange, setGalleryYearRange] = useState('2024-2025');
 
   // Function to get random painting
   const getRandomPainting = () => {
@@ -45,12 +46,23 @@ function App() {
     setActiveTab('home');
   };
 
+  // Filter paintings by year range
+  const getFilteredPaintings = () => {
+    if (galleryYearRange === 'before-2024') {
+      return paintings.filter(p => p.year < 2024);
+    } else if (galleryYearRange === '2024-2025') {
+      return paintings.filter(p => p.year >= 2024 && p.year <= 2025);
+    }
+    return paintings;
+  };
+
   return (
     <div className="App">
       <Header 
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         handleHomeClick={handleHomeClick}
+        onGalleryYearSelect={setGalleryYearRange}
       />
       
       <main className="main-content">
@@ -64,7 +76,7 @@ function App() {
           )}
           {activeTab === 'gallery' && (
             <Gallery 
-              paintings={paintings}
+              paintings={getFilteredPaintings()}
               selectPainting={selectPainting}
               isLoaded={isLoaded}
             />
