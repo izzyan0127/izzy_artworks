@@ -182,37 +182,6 @@ body {
   margin-left: 2px;
 }
 
-@media (max-width: 600px) {
-  .nav-arrow.left {
-    left: 8px; /* Inside the container edge */
-  }
-
-  .nav-arrow.right {
-    right: 8px;
-  }
-
-  .nav-arrow {
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
-  }
-
-  .nav-arrow.left::before,
-  .nav-arrow.right::before {
-    border-top: 6px solid transparent;
-    border-bottom: 6px solid transparent;
-  }
-
-  .nav-arrow.left::before {
-    border-right: 10px solid #333;
-  }
-
-  .nav-arrow.right::before {
-    border-left: 10px solid #333;
-  }
-}
-
-
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -326,11 +295,11 @@ body {
   }
 
   .nav-arrow.left {
-    left: -60px;
+    left: -10px;
   }
 
   .nav-arrow.right {
-    right: -60px;
+    right: -10px;
   }
 
   .featured-container {
