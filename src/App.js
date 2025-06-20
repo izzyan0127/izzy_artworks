@@ -9,7 +9,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('home');
   const [isLoaded, setIsLoaded] = useState(false);
   const [currentPainting, setCurrentPainting] = useState(null);
-  const [galleryYearRange, setGalleryYearRange] = useState('2024-2025');
+  const [galleryYearRange, setGalleryYearRange] = useState('2025');
 
   // Function to get random painting
   const getRandomPainting = () => {
@@ -48,10 +48,12 @@ function App() {
 
   // Filter paintings by year range
   const getFilteredPaintings = () => {
-    if (galleryYearRange === 'before-2024') {
-      return paintings.filter(p => p.year < 2024);
-    } else if (galleryYearRange === '2024-2025') {
-      return paintings.filter(p => p.year >= 2024 && p.year <= 2025);
+    if (galleryYearRange === '2023') {
+      return paintings.filter(p => p.year == 2023);
+    } else if (galleryYearRange === '2024') {
+      return paintings.filter(p => p.year == 2024);
+    } else if (galleryYearRange === '2025') {
+        return paintings.filter(p => p.year == 2025);
     }
     return paintings;
   };

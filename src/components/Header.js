@@ -38,11 +38,14 @@ function Header({ activeTab, setActiveTab, handleHomeClick, onGalleryYearSelect 
               </button>
               {galleryDropdownOpen && (
                 <div className="nav-dropdown">
-                  <button className="dropdown-item" onClick={() => handleGalleryYearSelect('before-2024')}>
-                    Before 2024
+                  <button className="dropdown-item" onClick={() => handleGalleryYearSelect('2023')}>
+                    2023
                   </button>
-                  <button className="dropdown-item" onClick={() => handleGalleryYearSelect('2024-2025')}>
-                    2024-2025
+                  <button className="dropdown-item" onClick={() => handleGalleryYearSelect('2024')}>
+                    2024
+                  </button>
+                  <button className="dropdown-item" onClick={() => handleGalleryYearSelect('2025')}>
+                    2025
                   </button>
                 </div>
               )}

@@ -26,22 +26,22 @@ export const paintings = [
     {
       id: 1,
       title: "Birds in Love",
-      year: 2024,
+      year: 2025,
       medium: "Watercolor on Canvas",
       image: birdCouple
     },
     {
       id: 2,
       title: "Bright Trees",
-      year: 2024,
-      medium: "Watercolor on Canvas",
+      year: 2025,
+      medium: "Acrylic on Canvas",
       image: brightTrees
     },
     {
       id: 3,
       title: "Eiffel Tower",
       year: 2025,
-      medium: "Watercolor on Canvas",
+      medium: "Acrylic on Canvas",
       image: eiffelTower
     },
     {
@@ -54,21 +54,21 @@ export const paintings = [
     {
       id: 5,
       title: "Pencil Ballet",
-      year: 2024,
+      year: 2025,
       medium: "Pencil on Paper",
       image: pencilBallet
     },
     {
       id: 6,
       title: "Pencil Ballet Tips",
-      year: 2024,
+      year: 2025,
       medium: "pencil on Paper",
       image: pencilBalletTips
     },
     {
         id: 7,
         title: "Pencil Bottle",
-        year: 2025,
+        year: 2024,
         medium: "Pencil on Paper",
         image: pencilBottle
       },
@@ -82,7 +82,7 @@ export const paintings = [
       {
         id: 9,
         title: "Pencil Girl",
-        year: 2025,
+        year: 2024,
         medium: "Pencil on Paper",
         image: pencilGirl
       },
@@ -96,15 +96,15 @@ export const paintings = [
       {
         id: 11,
         title: "Pencil Pot",
-        year: 2025,
+        year: 2024,
         medium: "Pencil on Paper",
         image: pencilPot
       },
       {
         id: 12,
         title: "Melting Clock",
-        year: 2023,
-        medium: "Acrylic on Canvas",
+        year: 2024,
+        medium: "Pencil on Paper",
         image: meltingClock
       },
       {
@@ -116,14 +116,14 @@ export const paintings = [
       },
       {
         id: 14,
-        title: "Color Eye",
+        title: "Butterfly Eye",
         year: 2023,
-        medium: "Watercolor on Paper",
+        medium: "Color Pencil",
         image: colorEye
       },
       {
         id: 15,
-        title: "Watercolor Fox and Butterfly",
+        title: "Fox on Fence",
         year: 2023,
         medium: "Watercolor on Paper",
         image: watercolorFoxButterfly
@@ -131,13 +131,13 @@ export const paintings = [
       {
         id: 16,
         title: "Mosaic Face",
-        year: 2023,
+        year: 2024,
         medium: "Mixed Media",
         image: mosaicFace
       },
       {
         id: 17,
-        title: "Pencil Rabbit",
+        title: "Pencil Squirrel",
         year: 2023,
         medium: "Pencil on Paper",
         image: pencilRabbit
@@ -151,9 +151,9 @@ export const paintings = [
       },
       {
         id: 19,
-        title: "Watercolor Plum",
+        title: "Japanese Blossom Tree",
         year: 2023,
-        medium: "Watercolor on Paper",
+        medium: "Watercolor and acrylic on Paper",
         image: watercolorPlum
       },
       {

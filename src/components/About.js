@@ -12,12 +12,12 @@ function About({ isLoaded }) {
           capture fleeting moments of beauty and contemplation through vibrant colors and dynamic compositions.
         </p>
         <p className="about-text">
-          Working primarily in watercolor and pencil, Izzy's artistic journey began in childhood, 
+          Working primarily in watercolor, pencil, and acrylic painting, Izzy's artistic journey began in childhood, 
           sketching the landscapes, shapes, and figures of her encounters. Her formal training at 
           the Miao's Art School shaped her technical foundation.
         </p>
         <p className="about-text">
-          Izzy's work has been featured in the school district's superintendent's office. 
+          Izzy's work has been featured in the school district superintendent's office. 
           Each painting tells a story, inviting the observer to discover their own narrative 
           within the layers of color and form.
         </p>
