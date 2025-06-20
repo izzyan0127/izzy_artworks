@@ -6,7 +6,7 @@ function About({ isLoaded }) {
       <div className="about-content">
         <h2 className="about-title">About the Artist</h2>
         <p className="about-text">
-          Isabelle (Izzy) An is a young artist whose work explores the intersection of nature, 
+          Isabella (Izzy) An is a young artist whose work explores the intersection of nature, 
           emotion, and the human experience. Born in Philadelphia and now a student 
           in Haverford Middle School, her paintings 
           capture fleeting moments of beauty and contemplation through vibrant colors and dynamic compositions.
