@@ -14,7 +14,7 @@ function About({ isLoaded }) {
         <p className="about-text">
           Working primarily in watercolor and pencil, Izzy's artistic journey began in childhood, 
           sketching the landscapes, shapes, and figures of her encounters. Her formal training at 
-          the Mia's Art School shaped her technical foundation.
+          the Miao's Art School shaped her technical foundation.
         </p>
         <p className="about-text">
           Izzy's work has been featured in the school district's superintendent's office. 
