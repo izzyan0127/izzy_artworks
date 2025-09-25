@@ -20,7 +20,7 @@ import pencilRabbit from '../assets/images/before_2024/pencil_rabbit.jpg';
 import pencilPotBrushes from '../assets/images/before_2024/pencil_pot_brushes.jpg';
 import watercolorPlum from '../assets/images/before_2024/watercolor_plum.jpg';
 import pencilPatterns from '../assets/images/before_2024/pencil_patterns.jpg';
-import potBottleCupAppleJuice from '../assets/images/2024_2025/pop_bottle_cup_apple_juice.jpg';
+import potBottleCupAppleJuice from '../assets/images/2024_2025/pot_bottle_cup_apple_juice.jpg';
 
 
 export const paintings = [
