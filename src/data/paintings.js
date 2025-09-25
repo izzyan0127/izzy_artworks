@@ -20,9 +20,17 @@ import pencilRabbit from '../assets/images/before_2024/pencil_rabbit.jpg';
 import pencilPotBrushes from '../assets/images/before_2024/pencil_pot_brushes.jpg';
 import watercolorPlum from '../assets/images/before_2024/watercolor_plum.jpg';
 import pencilPatterns from '../assets/images/before_2024/pencil_patterns.jpg';
+import potBottleCupAppleJuice from '../assets/images/2024_2025/pop_bottle_cup_applie_juice.jpg';
 
 
 export const paintings = [
+    {
+      id: 21,
+      title: "Pot, Bottle, Cup, and Apple Juice",
+      year: 2025,
+      medium: "Pencil on Paper",
+      image: potBottleCupAppleJuice
+    },
     {
       id: 1,
       title: "Birds in Love",
