@@ -21,9 +21,17 @@ import pencilPotBrushes from '../assets/images/before_2024/pencil_pot_brushes.jp
 import watercolorPlum from '../assets/images/before_2024/watercolor_plum.jpg';
 import pencilPatterns from '../assets/images/before_2024/pencil_patterns.jpg';
 import potBottleCupAppleJuice from '../assets/images/2024_2025/pot_bottle_cup_apple_juice.jpg';
+import girlPortrait from '../assets/images/2024_2025/girl_portrait.jpg';
 
 
 export const paintings = [
+    {
+      id: 22,
+      title: "Girl Portrait",
+      year: 2025,
+      medium: "Pencil on Paper",
+      image: girlPortrait
+    },
     {
       id: 21,
       title: "Pot, Bottle, Cup, and Apple Juice",
