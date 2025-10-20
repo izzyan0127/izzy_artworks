@@ -22,9 +22,17 @@ import watercolorPlum from '../assets/images/before_2024/watercolor_plum.jpg';
 import pencilPatterns from '../assets/images/before_2024/pencil_patterns.jpg';
 import potBottleCupAppleJuice from '../assets/images/2024_2025/pot_bottle_cup_apple_juice.jpg';
 import girlPortrait from '../assets/images/2024_2025/girl_portrait.jpg';
+import watermelon from '../assets/images/2024_2025/watermelon.jpg';
 
 
 export const paintings = [
+    {
+      id: 23,
+      title: "Watermelon  ",
+      year: 2025,
+      medium: "Watercolor on Canvas",
+      image: watermelon
+    },
     {
       id: 22,
       title: "Girl Portrait",
