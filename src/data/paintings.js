@@ -24,9 +24,25 @@ import potBottleCupAppleJuice from '../assets/images/2024_2025/pot_bottle_cup_ap
 import girlPortrait from '../assets/images/2024_2025/girl_portrait.jpg';
 import watermelon from '../assets/images/2024_2025/watermelon.jpg';
 import houseinfall from '../assets/images/2024_2025/house_in_fall.jpg';
+import balletGirl from '../assets/images/2024_2025/ballet_girl.jpg';
+import deck from '../assets/images/2024_2025/deck.jpg';
 
 
 export const paintings = [
+    {
+      id: 26,
+      title: "Deck in Autumn",
+      year: 2025,
+      medium: "Watercolor on Canvas",
+      image: deck
+    },
+    {
+      id: 25,
+      title: "A Ballet Girl",
+      year: 2025,
+      medium: "Watercolor on Canvas",
+      image: balletGirl
+    },
     {
       id: 24,
       title: "House in Fall",
