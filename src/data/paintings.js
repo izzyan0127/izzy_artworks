@@ -31,7 +31,7 @@ import deck from '../assets/images/2024_2025/deck.jpg';
 export const paintings = [
     {
       id: 26,
-      title: "Deck in Autumn",
+      title: "Deck in Sunset",
       year: 2025,
       medium: "Watercolor on Canvas",
       image: deck
