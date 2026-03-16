@@ -54,7 +54,10 @@ function App() {
       return paintings.filter(p => p.year == 2024);
     } else if (galleryYearRange === '2025') {
         return paintings.filter(p => p.year == 2025);
+    } else if (galleryYearRange === '2026') {
+        return paintings.filter(p => p.year == 2026);
     }
+    
     return paintings;
   };
 
