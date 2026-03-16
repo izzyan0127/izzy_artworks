@@ -26,9 +26,33 @@ import watermelon from '../assets/images/2024_2025/watermelon.jpg';
 import houseinfall from '../assets/images/2024_2025/house_in_fall.jpg';
 import balletGirl from '../assets/images/2024_2025/ballet_girl.jpg';
 import deck from '../assets/images/2024_2025/deck.jpg';
+import pond from '../assets/images/2026/oil_painting_pond.jpg';
+import pencilgirl26 from '../assets/images/2026/pencil_girl_2026.jpg';
+import pencilwomanhat from '../assets/images/2026/pencil_woman_with_hat.jpg';
 
 
 export const paintings = [
+    {
+      id: 29,
+      title: "Lotus Reflections",
+      year: 2026,
+      medium: "Oil on Canvas",
+      image: pond
+    },
+    {
+      id: 28,
+      title: "Pencil Woman with Hat",
+      year: 2026,
+      medium: "Pencil on Paper",
+      image: pencilwomanhat
+    },
+    {
+      id: 27,
+      title: "Pencil Girl",
+      year: 2026,
+      medium: "Pencil on Paper",
+      image: pencilgirl26
+    },
     {
       id: 26,
       title: "Deck in Sunset",
