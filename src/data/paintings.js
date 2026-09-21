@@ -30,9 +30,16 @@ import pond from '../assets/images/2026/oil_painting_pond.jpg';
 import pencilgirl26 from '../assets/images/2026/pencil_girl_2026.jpg';
 import pencilwomanhat from '../assets/images/2026/pencil_woman_with_hat.jpg';
 import strawberries from '../assets/images/2026/oil_painting_strawberries.jpg';
-
+import housebyshore from '../assets/images/2026/oil_painting_house_by_shore.jpg';
 
 export const paintings = [
+    {
+      id: 31,
+      title: "House by Shore",
+      year: 2026,
+      medium: "Oil on Canvas",
+      image: housebyshore
+    },
     {
       id: 30,
       title: "Strawberries",
